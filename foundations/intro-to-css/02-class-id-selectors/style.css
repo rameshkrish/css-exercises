@@ -1,0 +1,40 @@
+
+/*Draft 1 - Before seeing solution - Mistakes made */
+
+p
+{background-color: #ff7f50;
+font-family: Verdana, "Dejavu Sans", sans-serif;
+}
+
+.three-old
+{font-size: 24px;
+text-emphasis: bold;}
+
+.two-old
+{color: #0000ff;
+font-size: 36px;}
+
+.four-old
+{background-color: #90ee90;
+text-emphasis: bold;
+font-size: 24px;}
+
+*/
+
+/*DRAFT 2 - After Solution - NEW */
+
+.odd
+{background-color: #ff7f50;
+font-family: Verdana, Dejavu Sans sans-serif;
+}
+
+.adjusted-font-size
+{font-size: 24px;;}
+
+#two
+{color: #0000ff;
+font-size: 36px;}
+
+#four 
+{background-color: #90ee90;
+font-weight: 700;}

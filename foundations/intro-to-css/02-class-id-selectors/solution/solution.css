@@ -1,6 +1,6 @@
 .odd {
   background-color: rgb(255, 167, 167);
-  font-family: Verdana, "DejaVu Sans", sans-serif;
+  font-family: Verdana, "DejaVu Sans", sans-serif; /*add quotation marks (" ") around a font name when it contains spaces or special characters, or when it's a fallback font*/
 }
 
 .adjust-font-size {
