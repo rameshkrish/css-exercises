@@ -20,7 +20,15 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 16px;
+  gap: 16px;
 }
+
+.text {
+  margin-bottom: 16px;
+}
+
 
 .icon {
   color: royalblue;
@@ -33,13 +41,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;;
 }
 
 .close-button {
   background: #eee;
-  border-radius: 50%;
+  border-radius: 100%;
   color: #888;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 16px;
   height: 24px;
   width: 24px;
@@ -47,7 +65,8 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid #eee;
-  padding: 0;
+  flex-shrink: 0;
+  cursor: pointer;
 }
 
 button {
@@ -67,3 +86,5 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* Don't forget to check if all classes mentioned in the HTML are represented in the CSS too */

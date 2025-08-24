@@ -1,15 +1,44 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
+
+.items-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 52px;
+}
+
+/* I WROTE TOO MUCH CSS
+.items{
+  display: flex;
+  flex: 0 0 200px;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  
+} */
+
+.items {
+  max-width: 200px;
+  
+}
+
 
 img {
   width: 100px;
   height: 100px;
+  margin-bottom: 8px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+  /* padding-bottom: 32px; Should've been margin NOT PADDING */
 }
 
 /* do not edit this footer */

@@ -1,0 +1,68 @@
+* {background-color: rgb(255, 255, 250);}
+
+.form {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 16px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+  border: solid gray;
+  border-radius: 24px;
+  padding: 16px;
+  margin: 16px;
+  align-items: center;
+  gap: 16px;
+}
+
+.name,
+.email {  
+    background-color: black;
+    color  : papayawhip;
+  border:rgba(255, 239, 213, 0.200) solid 1px;
+  border-radius: 8px;
+  padding: 8px;
+
+}
+
+.name {
+  flex-grow: 1;
+  }
+
+
+.email {
+  flex-grow: 3;
+  }
+
+  button {
+  flex-grow: 1;
+  width: fit-content;
+  height: fit-content;
+  font-size: 16px;
+  background-color: papayawhip;
+  color: black;
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.name input,
+.email input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 4px;
+  font-size: 16px;
+  background-color: black;
+  border-color: none;
+  border: none;
+  border-bottom: 1px solid papayawhip;
+  color: papayawhip;
+  font-family: "Space Mono", monospace;
+;
+}

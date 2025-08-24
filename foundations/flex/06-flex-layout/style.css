@@ -5,6 +5,13 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-flow: column;
+  /* justify-content: space-between; DON'T NEED TO DO THIS instead add Flex 1 it to .content so it can take the available space*/
+}
+
+a {text-decoration-line: none;
+color:#666
 }
 
 img {
@@ -16,6 +23,10 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  color: #666;
+  padding: 8px 24px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 input {
@@ -23,4 +34,38 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.header
+{ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.footer
+{
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  padding: 12px; 
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+display: flex;
+flex: 1;  /* This was critical - I missed this. Just adding Flex 1 makes sure it grows to take available space*/
+justify-content: center;
+flex-flow: column;
+align-items: center;
+gap: 16px;
 }
